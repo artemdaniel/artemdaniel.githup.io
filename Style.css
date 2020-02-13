@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+a {
+    text-emphasis: none;
+    text-decoration:none;
+}
+li {
+    list-style: none;
+}
+#header {
+    width: 100%;
+    background: red;
+    display: flex;
+}
+.header_logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+    margin-bottom: 8px;
+}
+nav {
+    margin-top: 56px;
+    margin-left: 23%;
+}
+.topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+a {
+    color: #fff;
+}
+.topnav_item:hover {
+    border-bottom: 3px solid #ffb60d;
+}
+.topnav {
+    text-transform: uppercase;
+}
+.topnav .icon {
+    display: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main_welcome {
+    padding: 200px 0 410px 0;
+   background: #000;
+    text-align: center;
+}
+main .main_welcome p {
+    color: #999999;
+    font-size: 20px;
+}
+main .main_welcome b {
+    color: white;
+    font-size: 20px;
+}
+b {
+    color: white;
+}
+main .main_welcome h1 {
+    color: #999999;
+    font-size: 44px;
+}
+.mycompany {
+    color: #fcac45;
+}
+.wrapper {
+    width: 70%;
+}
+.about {
+    display: flex;
+    margin-bottom:100px;
+}
+.Macbook {
+    padding:100px 180px;
+    height: 350px;
+    width:410px;
+}
+.about_text{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:125px;
+    padding-right: 230px;
+    margin-bottom:50px;
+}
+h2 {
+    margin-bottom:5px;
+    padding:5px;
+    display:block;
+    font-weight: 500;
+    font-size: 26px;
+    border-bottom: 3px solid #ffb60d;
+}
+#leftcol {
+    width: 500px;
+    float: left;
+    }
+#rightcol {
+    width: 500px;
+    float: right;
+}     
+.about_text p{
+    color:gray;
+}
+b {
+    color: #000;
+}
+.about_text h2 span{
+    font-weight: bold;
+    color:black;
+}
+
+.about_list{
+    margin-left:15px;
+    text-align: right;
+}
+
+.about_list ul{
+    padding: 0;
+}
+
+.about_list li{
+    color:gray;
+   font-size:16px;
+   list-style: circle;
+}
+
+.about_list li span{
+    color:black;
+    font-weight:bold;
+}
+
+* {
+    padding-bottom: 2px;
+}
+/*Our team*/
+.our_team{
+    color:#c9c9c9;
+    background: #000;
+    padding-bottom:150px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight:100;
+    text-align:center;
+    font-size:32px;
+}
+
+h3{
+    padding-top:80px;
+    margin-bottom:20px;
+}
+
+.line{
+    margin-bottom:60px;
+}
+
+.our_teams{
+    display:flex;
+    padding-left:80px;
+}
+
+.avatar{
+    background-color: white;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; 
+    width:125px;
+    height:125px;
+}
+
+.team_images{
+    text-align:center;
+    margin-right:130px;
+    padding-bottom:40px;
+}
+
+.pip{
+    font-weight: bold;
+}
+
+.images_text{
+    text-align:center;
+}
+/*Our Service*/
+.our_services 
+{
+    background: white;
+    padding-bottom: 200px;
+}
+.service_text{
+    text-align:center;
+    color:gray; 
+    padding-bottom:80px;
+}
+.our_service a {
+    color: black;
+}
+.our_services{
+    display:flex;   
+    padding-left:80px;
+}
+
+.service_images{
+    text-align:center;
+    margin-right:130px;
+}
+
+.services_text{
+    color:gray;
+}
+/*Our client*/
+
+.our_client{
+    background: #000;
+    color:#c9c9c9;
+}
+.clients_images a{
+    color: #fff;
+}
+.clients_images{
+    display:flex;
+    padding-bottom:200px;
+    padding-left:150px;
+}
+
+.client_images{
+    padding:25px;
+}
+/*Our work*/
+.work_title{
+    padding-top:100px;
+    padding-bottom:80px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.work_title span{
+    font-weight: bold;
+}
+
+.work_text{
+    text-align:center;
+    color:gray;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom:150px;
+}
+
+.work_images{
+    padding-bottom:90px;
+}
+
+.images_work {
+    display:flex;
+
+}
+
+.images_work img{
+    padding:25px;
+    width:285px;
+}
+/*Reviews of us*/
+
+.reviews{
+    background: #000;
+    color:#c9c9c9;
+}
+.reviews_text{
+    text-transform:uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.avtor{
+    text-align: center;
+    color:#c9c9c9;
+    padding-bottom:170px;
+}
+/*Contacts us*/
+.contacts_text{
+    text-align:center;
+    color:gray;
+    margin-bottom:80px;
+}
+
+.registr{
+    display:flex;
+}
+.r_form:first-child{
+    margin-left:350px;
+    margin-right:25px;
+}
+
+.name{
+    width: 360px;
+    height:20px;
+}
+
+.email{
+    width:340px;
+    height:20px;
+}
+
+.message{
+    margin-top:35px;
+}
+
+.message_box{
+    width:725px;
+    height:160px;
+}
+
+.registred span{
+    color:orangered;
+}
+
+button{
+    background: #ffb60d;
+    float:right;
+    margin-top:20px;
+    margin-right:270px;
+    margin-bottom:100px;
+    border: 0;
+    width:165px;
+    height:35px;
+    color:white;
+    text-transform: uppercase;
+    text-align:center;
+}
+/*footer*/
+
+footer {
+background: #000;
+}
+
+footer a {
+    color:  blanchedalmond;
+}
+
+.foot_img {
+    padding-left:540px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.foot_img img{
+    margin:5px;
+}
+@media screen and (max-width 1110px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav {
+        width: 100%;
+    }
+    header .topnav.responsive {
+        height: 340px;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    main .main_welcome {
+        padding: 50px 0 50px 0;
+    }
+    main .main_welcome {
+        font-size: 25px;
+    }
+    .main_about {
+        flex-direction: column;
+    }
+    .about_right {
+        text-align: left;
+    }
+    .about_right li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .team_cards {
+        flex-direction: column;
+    }
+}

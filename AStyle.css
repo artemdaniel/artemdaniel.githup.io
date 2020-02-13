@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+a {
+    text-emphasis: none;
+}
+li {
+    list-style: none;
+}
+#leftcol {
+    width: 500px;
+    float: left;
+    }
+    #rightcol {
+        width: 500px;
+        float: right;
+    }     
+    @media screen and (max-width: 1110px) {
+        .topnav a {
+            display: none;
+        }
+        .topnav a.icon {
+            float: right;
+            margin-top: -17px;
+            display: block;
+            color: #fff;
+            font-size: 25px;
+        }
+        nav {
+            width: 100%;
+        }
+        header .topnav.responsive {
+            height: 340px;
+        }
+        .topnav.responsive a.icon {
+            position: absolute;
+            top: -50px;
+            right: -200px;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+        main .main_welcome {
+            padding: 50px 0 50px 0;
+        }
+        main .main_welcome {
+            font-size: 25px;
+        }
+        .main_about {
+            flex-direction: column;
+        }
+        .about_right {
+            text-align: left;
+        }
+        .about_right li {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .team_cards {
+            flex-direction: column;
+        }  
+    }

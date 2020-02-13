@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+}
+#header {
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+.our_team {
+    color:#c9c9c9;
+    background: black;
+    padding-bottom:150px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight:100;
+    text-align:center;
+    font-size:32px;
+}
+
+h3{
+    padding-top:80px;
+    margin-bottom:20px;
+}
+
+.line{
+    margin-bottom:60px;
+}
+
+.our_teams{
+    display:flex;
+    padding-left:80px;
+}
+
+.avatar{
+    background-color: white;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; 
+    width:125px;
+    height:125px;
+}
+
+.team_images{
+    text-align:center;
+    margin-right:130px;
+    padding-bottom:40px;
+}
+
+.pip{
+    font-weight: bold;
+}
+
+.images_text{
+    text-align:center;
+}
+h1 {
+    color: white;
+}
+.line{
+    margin-bottom:60px;
+}
+.avatar {
+    background-color: white;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: Top;
+}
+.team_images{
+    text-align:center;
+    margin-right:130px;
+    padding-bottom:40px;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+a {
+    text-emphasis: none;
+    color: white;
+}
+p {
+    color: white;
+}
+li {
+    list-style: none;
+}
